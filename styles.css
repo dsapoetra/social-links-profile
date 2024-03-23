@@ -1,0 +1,170 @@
+body {
+    background-size: cover;
+    background-position: center;
+
+    background: #141414;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+
+    position: absolute;
+    width: 384px;
+    height: 611px;
+    left: calc(50% - 384px/2);
+    top: calc(50% - 611px/2 - 0.5px);
+
+    background: #1F1F1F;
+    border-radius: 12px;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+
+#profile-name>h1 {
+    width: 304px;
+    height: 36px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#profile-name>p {
+    width: 304px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #C4F82A;
+}
+
+#profile>img {
+    width: 88px;
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 999px;
+    top: 50%;
+    left: 50%;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#profile-name {
+
+    text-align: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 304px;
+    height: 61px;
+}
+
+#job>p {
+    width: 304px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 1.5px;
+
+    color: #FFFFFF;
+}
+
+#social-links {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-top: 60px;
+
+    width: 304px;
+    height: 289px;
+}
+
+#social-links>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 304px;
+    height: 45px;
+
+    background: #333333;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#social-links a:hover {
+    background-color: #C4F82A;
+    color: black;
+    text-decoration: none;
+  } 
+
+#social-links a:hover p {
+    color: black;
+} 
+
+a>p {
+    width: 304px;
+    height: 21px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.attribution {
+    font-size: 11px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
